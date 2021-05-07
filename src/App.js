@@ -47,7 +47,7 @@ function App() {
                   These tokens can’t be considered as private information because it keeps changing at certain periods of time. Hence,
                   protects users to be tracked at any time. In case the user has been infected, we also take user’s consent by asking whether
                   they would like to share their device data with TraceX to notify other people or not. TraceX then notifies other people who have
-                  been in their contact for more than 10 minutes within 6 feet of distance in the past 14 days.
+                  been in their contact for more than 2 minutes within 6 feet of distance in the past 14 days.
                 </p>
                 <p>
                   TraceX also provides information from reliable sources through interactive graphs and numbers.
@@ -87,16 +87,6 @@ function App() {
                 <Button variant="success" size="lg" href="/TraceX.apk" block>Download</Button>
               </Media.Body>
             </Media>
-            {/* <Card>
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card> */}
           </Col>
         </Row>
       </div>
